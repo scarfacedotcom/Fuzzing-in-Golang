@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	input := "The quick brown fox jumped over the lazy dog"
+	input := "Scar Face is  Good Guy"
 	rev, revErr := Reverse(input)
 	doubleRev, doubleRevErr := Reverse(rev)
 	fmt.Printf("original: %q\n", input)
